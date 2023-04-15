@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-family);
+}
+
+:root {
+  --brand-1: #4d75ec;
+
+  --gray-0: #474555;
+  --gray-1: #6b6a76;
+  --gray-2: #908f99;
+  --gray-3: #b5b4bb;
+  --gray-4: #ececee;
+
+  --white-fixed: #ffffff;
+
+  --font-family: "Roboto", sans-serif;
+
+  --font-heading: 32px;
+  --font-text: 16px;
+}
+
+:root.dark {
+  --gray-0: #ececee;
+  --gray-1: #b5b4bb;
+  --gray-2: #908f99;
+  --gray-3: #6b6a76;
+  --gray-4: #474555;
+}

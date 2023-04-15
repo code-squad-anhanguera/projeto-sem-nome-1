@@ -1,0 +1,16 @@
+.default_btn {
+  padding: 9px 18px;
+  border: 1px solid var(--brand-1);
+  border-radius: 4px;
+  background-color: var(--brand-1);
+  color: var(--white-fixed);
+  cursor: pointer;
+  outline: none;
+  transition: 300ms;
+}
+
+.default_btn:hover {
+  background-color: var(--gray-4);
+  color: var(--brand-1);
+  transition: 300ms;
+}
